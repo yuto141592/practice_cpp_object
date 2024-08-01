@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include "object.h"
 #include "function.h"
+#include "data.h"
 
 int main() {
     Student array[5];
