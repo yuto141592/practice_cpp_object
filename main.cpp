@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
-#include "object.h"
-#include "function.h"
-#include "data.h"
+#include "./header/object.h"
+#include "./header/function.h"
+#include "./header/data.h"
 
 int main() {
     Student array[5];
