@@ -4,8 +4,8 @@
 #include "object.h"
 
 void Student::show() {
-    std::cout << "名前：" << name << std::endl;
-    std::cout << "年齢：" << age << std::endl;
+    std::cout << u8"名前：" << name << std::endl;
+    std::cout << u8"年齢：" << age << std::endl;
 }
 
 void Student::setNum(int n) {
