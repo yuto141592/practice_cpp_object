@@ -18,7 +18,7 @@ int main() {
 
     q = &Yamada;
     (*q).show();
-    std::cout << "E—ðF" << Yamada.getCareer() << std::endl;
+    std::cout << "è·æ­´ï¼š" << Yamada.getCareer() << std::endl;
     std::cout << std::endl;
 
     for (int i = 0; i < 5; i++) {
