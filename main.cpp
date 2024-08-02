@@ -8,9 +8,13 @@
 int main() {
     Student array[5];
     Student* p;
+
+    struct Students students;
     
     Teacher Yamada(0, "Yamada", 27, 4);
     Teacher* q;
+
+    struct Teachers teachers;
 
     q = &Yamada;
     (*q).show();
@@ -19,7 +23,7 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
         p = &array[i];
-        *p = Student(i, persons[i], ages[persons[i]]);
+        *p = Student(i, students.persons[i], students.ages[students.persons[i]]);
     }
     
     // for (int i = 0; i < 5; i++) {
